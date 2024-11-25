@@ -6,16 +6,38 @@ body {
 
 h1 {
     font-family: raleway;
+    font-size: 96px;
 }
 
 h2 {
     font-family: raleway;
+    font-size: 80px;
+    color: #9F0908;
 }
 
 h3 {
     font-family: economica;
+    font-size: 56px;
 }
 
 p {
     font-family: economica;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

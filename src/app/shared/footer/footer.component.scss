@@ -1,0 +1,28 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    height: 144px;
+    width: 100%;
+    background-color: #0A141E;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 1840px;
+    padding: 0 20px;
+    .footer-logo {
+        img{
+            height: 40px;
+        }
+    }
+    .footer-socials {
+        img {
+            height: 40px;
+            margin-right: 10px;
+        }
+    }
+}

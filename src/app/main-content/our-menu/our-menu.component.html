@@ -1,0 +1,32 @@
+<div class="our-menu-container">
+    <div class="our-menu-content">
+      <div class="our-menu-headline">
+        <h2>OUR MENU</h2>
+      </div>
+      <div class="our-menu-list">
+        <div 
+          class="our-menu-items" 
+          *ngFor="let item of contentList; let i = index" 
+          [ngClass]="{'left': i % 2 === 0, 'right': i % 2 !== 0, 'first-item': i === 0, 'third-item': i === 2}">
+          <img [src]="item.src" alt="menu-image" [ngClass]="{'order-last': i % 2 !== 0}">
+          <table>
+            <tr style="margin-bottom: 16px;">
+              <td><h3>{{item.title}}</h3></td>
+            </tr>
+            <tr>
+              <td><p>{{item.variety1}}</p></td>
+              <td><p>{{item.price1}}</p></td>
+            </tr>
+            <tr>
+              <td><p>{{item.variety2}}</p></td>
+              <td><p>{{item.price2}}</p></td>
+            </tr>
+            <tr>
+              <td><p>{{item.variety3}}</p></td>
+              <td><p>{{item.price3}}</p></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
