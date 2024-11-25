@@ -9,3 +9,24 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.landingpage-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.landingpage-headline {
+    h1 {
+        font-size: 96px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
