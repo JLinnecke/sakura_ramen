@@ -12,7 +12,6 @@
 
 .landingpage-content {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
@@ -20,12 +19,13 @@
 }
 
 .landingpage-headline {
+    margin-top: -150px;
     h1 {
         font-size: 96px;
         font-weight: 700;
         margin-bottom: 0;
     }
-    p {
+    h2 {
         font-size: 24px;
         font-weight: 400;
     }
