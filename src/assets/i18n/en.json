@@ -1,0 +1,10 @@
+{
+    "TITLE": "SAKURA RAMEN",
+    "SUBTITLE": "THE BEST RAMEN IN TOWN",
+    "ORDER": "HOW TO ORDER",
+    "HOW_TO_ORDER": {
+        "NOODLES": "Pick your Noodles",
+        "BROTH": "Pick your Broth",
+        "TOPPINGS": "Pick your Toppings"
+    }
+}

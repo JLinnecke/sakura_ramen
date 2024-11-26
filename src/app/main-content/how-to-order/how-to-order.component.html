@@ -1,12 +1,12 @@
 <div class="how-to-order-container">
     <div class="how-to-order-content">
         <div class="how-to-order-headline">
-            <h2>HOW TO ORDER</h2>
+            <h2>{{'ORDER' | translate}}</h2>
         </div>
         <div class="how-to-order-instruction">
             <div *ngFor="let item of contentList" class="instruction-content">
                 <img [src]="item.src" alt="{{item.description}}">
-                <p>{{item.description}}</p>
+                <p>{{item.description | translate}}</p>
             </div>
         </div>
     </div>
