@@ -6,5 +6,24 @@
         "NOODLES": "Wählen Sie Ihre Nudeln",
         "BROTH": "Wählen Sie Ihre Brühe",
         "TOPPINGS": "Wählen Sie Ihre Toppings"
-    }
+    },
+    "OUR_MENU": {
+        "TITLE": "SPEISEKARTE",
+        "ITEMS_1": {
+            "INGREDIENT_1": "Huhn",
+            "INGREDIENT_2": "Rind",
+            "INGREDIENT_3": "Garnele"
+        },
+        "ITEMS_2": {
+            "INGREDIENT_1": "Huhn",
+            "INGREDIENT_2": "Rind",
+            "INGREDIENT_3": "Garnele"
+        },
+        "ITEMS_3": {
+            "INGREDIENT_1": "Huhn",
+            "INGREDIENT_2": "Rind",
+            "INGREDIENT_3": "Garnele"
+        }
+    },
+    "FIND_US": "FINDEN SIE UNS"
 }

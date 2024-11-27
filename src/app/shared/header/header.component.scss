@@ -15,28 +15,41 @@
     align-items: center;
     width: 100%;
     max-width: 1840px;
+
     .header-logo {
         display: flex;
         gap: 8px;
+
         img {
             width: 64px;
             height: 64px;
         }
+
         .translate {
+            display: flex;
+           img {
             border-radius: 100%;
+            border: 3px solid whitesmoke;
+            transition: z-index 0.3s;
+           }
+           img.active{
+            z-index: 10;}
         }
     }
+
     .header-nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 32px;
+
         a {
             text-decoration: none;
             color: whitesmoke;
             font-family: raleway;
             font-size: 24px;
         }
+
         button {
             display: flex;
             justify-content: center;
@@ -50,10 +63,10 @@
             gap: 8px;
             cursor: pointer;
         }
+
         img {
             width: 24px;
             height: 24px;
         }
     }
 }
-

@@ -2,8 +2,10 @@
     <div class="header-content">
         <div class="header-logo">
             <img src="./assets/img/1_hero/PNG/sakura_logo.png" alt="">
-            <img (click)="useLanguage('de')" class="translate" src="./assets/img/6_translate/german.png" alt="">
-            <img (click)="useLanguage('en')" class="translate" src="./assets/img/6_translate/english.png" alt="">
+            <div class="translate">
+                <img (click)="useLanguage('de'); toggleZIndex('en')" [class.active]="activeLang === 'en'" src="./assets/img/6_translate/english.png" alt="English">
+                <img (click)="useLanguage('de'); toggleZIndex('de')" [class.active]="activeLang === 'de'" src="./assets/img/6_translate/german.png" alt="Deutsch" style="margin-left:-32px">
+            </div>
         </div>
         <div class="header-nav">
             <a href="#">Home</a>

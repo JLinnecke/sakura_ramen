@@ -10,7 +10,7 @@ import { TranslateService } from "@ngx-translate/core";
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-
+ activeLang: string = 'en';
 
   constructor(private translate: TranslateService) {
     this.translate.addLangs(['de', 'en']);
@@ -21,5 +21,10 @@ export class HeaderComponent {
 
   useLanguage(language: string): void {
     this.translate.use(language);
+    this.activeLang = language;
+  }
+
+  toggleZIndex(language: string) {
+    this.activeLang = language;
   }
 }

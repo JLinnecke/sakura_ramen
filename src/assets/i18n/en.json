@@ -6,5 +6,24 @@
         "NOODLES": "Pick your Noodles",
         "BROTH": "Pick your Broth",
         "TOPPINGS": "Pick your Toppings"
-    }
+    },
+    "OUR_MENU": {
+        "TITLE": "OUR MENU",
+        "ITEMS_1": {
+            "INGREDIENT_1": "Chicken",
+            "INGREDIENT_2": "Beef",
+            "INGREDIENT_3": "Shrimp"
+        },
+        "ITEMS_2": {
+            "INGREDIENT_1": "Chicken",
+            "INGREDIENT_2": "Beef",
+            "INGREDIENT_3": "Shrimp"
+        },
+        "ITEMS_3": {
+            "INGREDIENT_1": "Chicken",
+            "INGREDIENT_2": "Beef",
+            "INGREDIENT_3": "Shrimp"
+        }
+    },
+    "FIND_US": "FIND US"
 }
