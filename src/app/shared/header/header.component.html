@@ -3,14 +3,17 @@
         <div class="header-logo">
             <img src="./assets/img/1_hero/PNG/sakura_logo.png" alt="">
             <div class="translate">
-                <img (click)="useLanguage('de'); toggleZIndex('en')" [class.active]="activeLang === 'en'" src="./assets/img/6_translate/english.png" alt="English">
-                <img (click)="useLanguage('de'); toggleZIndex('de')" [class.active]="activeLang === 'de'" src="./assets/img/6_translate/german.png" alt="Deutsch" style="margin-left:-32px">
+                <img (click)="useLanguage('en');" [class.active]="activeLang === 'en'" src="./assets/img/6_translate/english.png" alt="English">
+                <img (click)="useLanguage('de');" [class.active]="activeLang === 'de'" src="./assets/img/6_translate/german.png" alt="Deutsch" style="margin-left:-32px">
             </div>
         </div>
-        <div class="header-nav">
+        <div class="header-nav" [class.open]="isMenuOpen">
             <a href="#">Home</a>
-            <a href="#">Menu</a>
-            <a href="#">About</a>
-            <button><img src="./assets/img/1_hero/PNG/phone.png" alt="">0151/435261</button>
+            <a href="#ourMenu">Menu</a>
+            <a href="#findUs">About</a>
+            <button><a href="tel:0151/435261"><img src="./assets/img/1_hero/PNG/phone.png" alt="">0151/435261</a></button>
         </div>
+        <div class="burger-menu" (click)="toggleMenu()">
+            ☰
+          </div>
     </div>
